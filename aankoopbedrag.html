@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Puzzel week 1 </title>
+</head>
+
+<body> 
+
+	<script> 
+	var aankoopBedrag;
+	var bezorgkosten;
+	aankoopBedrag = prompt("Wat is het aankoop bedrag?", "Vul hier het aankoopbedrag in");
+	bezorgkosten = parseFloat(aankoopBedrag)+3.95
+
+	if (aankoopBedrag >= 25){ 
+		alert("Het totaalbedrag is " + aankoopBedrag + " euro." + " Je bestelling wordt gratis bezorgd!"); 
+	}
+	else { 
+		alert("Het totaalbedrag inclusief bezorgkosten is " + bezorgkosten);
+	}
+	</script>
+
+</body>
+</html>
